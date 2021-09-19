@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Essential",
+        "description": "Understand the true pulse of your organization with regular Check-ins and guided 1-on-1s, and show meaningful appreciation when it matters most using High Fives.",
+        "price": "8€",
+        "optionOne": "Core HR",
+        "optionTwo": "Payroll",
+        "optionThree": "Recruiting",
+        "optionFour": "Employee HUB"
+    },
+    {
+        "title": "Growth",
+        "description": "Understand the true pulse of your organization with regular Check-ins and guided 1-on-1s, and show meaningful appreciation when it matters most using High Fives.",
+        "price": "14€",
+        "optionOne": "Core HR",
+        "optionTwo": "Payroll",
+        "optionThree": "Recruiting",
+        "optionFour": "Employee HUB",
+        "optionFive": "Performance management",
+        "optionSix": "Shift planning"
+    },
+    {
+        "title": "Performance",
+        "description": "Understand the true pulse of your organization with regular Check-ins and guided 1-on-1s, and show meaningful appreciation when it matters most using High Fives.",
+        "price": "20€",
+        "optionOne": "Core HR",
+        "optionTwo": "Payroll",
+        "optionThree": "Recruiting",
+        "optionFour": "Employee HUB",
+        "optionFive": "Performance management",
+        "optionSix": "Shift planning",
+        "optionSeven": "Compensation management"
+    }
+]
