@@ -24,7 +24,7 @@ class Card extends Component {
   render() {
     let plans = this.props.plans;
     return (
-      <div className={this.state.status ? "card card-active" : "card hover"}>
+      <div className={this.props.statusTier ? "card card-active" : "card hover"}>
         {plans.map((plan, index) => {
           if (plan.title === this.props.type) {
             return (
@@ -201,7 +201,7 @@ class Card extends Component {
                     </div>
                   </div>
                   </div>
-                  <div onClick={() => this.setActive()} className="card-bottom-button">Select Plan</div>
+                  <div onClick={(e) => this.props.setActive(plan.title)} className="card-bottom-button">Select Plan</div>
                 </div>
               </>
             );
